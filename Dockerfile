@@ -1,4 +1,4 @@
-FROM flink:1.18.0-java-11
+FROM flink:1.18.0-java11
 
 # Install nginx
 RUN apt-get update -y && apt-get install nginx pwgen apache2-utils -y && apt-get clean
