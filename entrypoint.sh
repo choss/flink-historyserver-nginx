@@ -7,7 +7,7 @@ if [ ! -f  "/etc/nginx/ssl/dhparam.pem" ]; then
   openssl dhparam -out /etc/nginx/ssl/dhparam.pem 2048
 fi
 
-if [ -z "$HT_PASSWD_CONTENTS" ]; then
+if [ -n "$HT_PASSWD_CONTENTS" ]; then
   echo "==========================================================================="
   echo "Found contents of nginx password file, creating / appending to htpasswd"
   echo "Appending $HT_PASSWD_CONTENTS"
