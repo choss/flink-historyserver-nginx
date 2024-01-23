@@ -37,5 +37,3 @@ If they do not exist, they will be created on container start. The username and 
 				-e "FLINK_PROPERTIES=historyserver.archive.fs.dir: /path/to/my/dir"
                 -p 8200:8200 flink_and_nginx
    ```
-   
-   test:$2y$05$chYavpf5/zhTtt1wBESRk.Xcbs/Dv.ZJxnfpkVDonbRY9C6WMmWQq
